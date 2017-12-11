@@ -1,0 +1,16 @@
+body {
+
+	background-image: url("../images/candy_img.jpg");
+	background-repeat: no-repeat;
+	font-family: helvetica, Arial, sans-serif;
+}
+
+#slogan {
+	font-style: italic;
+}
+
+h1, p, h3, li {
+	color: #fff;
+	
+}
+
