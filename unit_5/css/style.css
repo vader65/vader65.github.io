@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Risque');
+
+body {
+
+	background-image: url("../images/candy_img.jpg");
+	background-repeat: no-repeat;
+	font-family: helvetica, Arial, sans-serif;
+}
+
+#slogan {
+	font-style: italic;
+}
+
+h1, p, h3, li {
+	color: #10FFDB;
+	font-family: 'Risque', cursive, helvetica, Arial, sans-serif;;
+	
+}
+
+p {
+	font-size: 1em;
+	line-height: 1.5em;
+	width: 30em;
+}
+header {
+	background-color: #FFED74;
+    border: 1px black solid;
+    padding: 20px;
+}
+nav {
+	background-color: #E8C66A;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+aside {
+	background-color: #FFC675;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+article {
+	background-color: #E89C6C;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+footer {
+	background-color: #FF957E;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+div section {
+	background-color: #FFF2B8;
+    border: 1px black solid;
+    padding: 20px;
+}
