@@ -192,6 +192,7 @@ label {
     }
 	.image-wrap {
 		border: none;
+        background: #fff;
 	}
 }
 
