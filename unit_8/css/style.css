@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
 .wrapper {
-    /*width: 52%;*/
     width: 100%;
     /*border: solid 1px;*/
     /*background-color: #d3d3d3;*/
@@ -32,6 +31,7 @@ a:link {
     padding: .75em;
 }
 
+
 a:hover {
     /*background-color: #0CB6E8;*/
     color: #0CB6E8;
@@ -44,6 +44,7 @@ header {
 
 .navbar {
     width: 100%;
+    font-size: .8em;
     /*border: solid 1px;*/
     margin-top: 2em;
 }
@@ -64,26 +65,26 @@ footer {
 }
 
 .slogan {
-    border-bottom: .5em solid #0773FF;
-    text-align: right;
+    border-bottom: .1em solid #0773FF;
+    /*text-align: right;*/
     font-size: .90em;
     font-weight: normal;
     letter-spacing: 0;
-    float: right;
+    /*float: right;*/
     /*border: solid 2px;*/
     width: 50%;
     color: #0773FF;
     padding: .5em;
-    margin: .5em;
+    margin-bottom: 1em;
 }
 
 .logo {
     font-size: 1.5em;
-    float: left;
+    /*float: left;*/
     /*border: solid 2px;*/
     width: 30%;
     color: #0773FF;
-    padding: .5em;
+    padding-top: .5em;
     margin: .2em;
 }
 
@@ -147,8 +148,6 @@ label {
     display: none;
 }
 
-
-
 .clearfix:after {
     visibility: hidden;
     display: block;
@@ -164,32 +163,6 @@ label {
     }
 }
 
-@media screen and (max-width:1735px) {
-    .slogan {
-        border-bottom: none;
-        display: block;
-        width: auto;
-        float: none;
-    }
-    .navbar {
-        display: none;
-    }
-
-    nav a:link {
-        display: block;
-        padding: 15px;
-        margin: 5px;
-        float: none;
-    }
-
-    label {
-        display: block;
-    }
-
-    #toggle:checked+nav {
-        display: block;
-    }
-}
 
 @media screen and (max-width:1280px) {
 
@@ -211,10 +184,35 @@ label {
 		display: block;
 		width: auto;
 	}
+	.slogan {
+        text-align: left;
+        display: block;
+        width: auto;
+        float: none;
+    }
 	.image-wrap {
-		background-color: #fff;
 		border: none;
-        padding: 0;
-        margin: 0;
 	}
+}
+
+@media screen and (max-width:500px) {
+    
+    .navbar {
+        display: none;
+    }
+
+    nav a:link {
+        display: block;
+        padding: 15px;
+        margin: 5px;
+        float: none;
+    }
+
+    label {
+        display: block;
+    }
+
+    #toggle:checked+nav {
+        display: block;
+    }
 }
