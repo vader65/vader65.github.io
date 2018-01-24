@@ -96,7 +96,7 @@ footer {
     background-color: #FFB7CF;
     border: 1px black solid;
     padding: 1.5em;
-    width: 75%;
+    width: auto;
 }
 
 .images {
@@ -166,38 +166,40 @@ label {
 
 @media screen and (max-width:1280px) {
 
-	#two_column {
-		width: auto;
-	}
+    #two_column {
+        width: auto;
+    }
     #left {
-    	width: auto;
-    	float: none;
+        width: auto;
+        float: none;
     }
     #right {
-    	width: auto;
-    	float: none;
+        width: auto;
+        float: none;
     }
 }
 
 @media screen and (max-width:870px) {
-	.logo {
-		display: block;
-		width: auto;
-	}
-	.slogan {
+    .logo {
+        display: block;
+        width: auto;
+    }
+    .slogan {
         text-align: left;
         display: block;
         width: auto;
         float: none;
     }
-	.image-wrap {
-		border: none;
-        background: #fff;
-	}
+    .image-wrap {
+        background-color: #fff;
+        border: none;
+        padding: 1em;
+        margin: 0;
+    }
 }
 
 @media screen and (max-width:500px) {
-    
+
     .navbar {
         display: none;
     }
@@ -212,6 +214,7 @@ label {
     label {
         display: block;
     }
+
 
     #toggle:checked+nav {
         display: block;
