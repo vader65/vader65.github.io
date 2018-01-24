@@ -214,4 +214,7 @@ label {
 		background-color: #fff;
 		border: none;
 	}
+    .images {
+        margin: 0;
+    }
 }
